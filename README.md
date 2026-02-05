@@ -15,7 +15,6 @@ A simple and efficient Windows batch script to **download all audio from a YouTu
 - Embeds **video thumbnails** into MP3s.
 - Automatically **restricts filenames** for clean organization.
 - Works on **Windows**, requires `yt-dlp` in PATH.
-- Easy Playlist link update in txt format
 
 ---
 
@@ -48,11 +47,11 @@ git clone https://github.com/AToha4521/bulk-yt-mp3-downloader.git
 
 2. Open the folder in **File Explorer**.
 
-3. Enter your **YouTube playlist URL** inside the `playlist.txt`. (use with any text editor example Notepad).
+3. Enter your **YouTube playlist URL** inside the `.bat` file. (use with any text editor example Notepad)
 
-4. Run the **batch file** (`yt_bulk_download.bat`) by double-clicking it or via Command Prompt.
+4. If `yt-dlp` is not found, follow the instructions to install it.
 
-5. If `yt-dlp` is not found, follow the instructions to install it.
+5. Run the **batch file** (`yt_bulk_download.bat`) by double-clicking it or via Command Prompt.
 
 6. Wait for downloads — all MP3s will be saved in a folder named after the playlist.
 
